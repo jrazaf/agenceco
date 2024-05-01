@@ -23,7 +23,6 @@ body {
     --fs-me : 40px;
     --fs-sm : 15px;
     --fs-vsm : 11px;
-
 }
 
 .text-center {
@@ -92,31 +91,12 @@ body {
     margin-bottom: 50px !important;
 }
 
-.mb-100 {
-    margin-bottom: 100px !important;
-}
-
-.mb-125 {
-    margin-bottom: 125px !important;
-}
-
 .mb-45 {
     margin-bottom: 45px !important;
-}
-.mb-25 {
-    margin-bottom: 25px !important;
 }
 
 .mb-30 {
     margin-bottom: 30px !important;
-}
-
-.mt-100 {
-    margin-top: 100px !important;
-}
-
-.mt-50 {
-    margin-top: 50px !important;
 }
 
 .mt-25 {
@@ -133,10 +113,6 @@ body {
 
 .mt-30 {
     margin-top: 30px !important;
-}
-
-.ml-auto {
-    margin-left: auto; /*Alignement à droite */
 }
 
 /* FIN MARGES */
