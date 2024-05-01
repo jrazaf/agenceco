@@ -7,6 +7,12 @@ body {
     padding: 0;
 }
 
+section {
+    /* margin-bottom: 20px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 /* DEB FORMATAGE */
 
 :root{
@@ -42,12 +48,15 @@ body {
     font-style: italic;
 }
 
+.text-white {
+    color: var(--color-blanc);
+}
+
 .title-eco {
    color: var(--color-eco);
    font-size: var(--fs-me);
 }
 
- 
 .title-sun {
     color: var(--color-sun);
     font-size: var(--fs-me);
@@ -55,10 +64,6 @@ body {
 
 .color-sun{
     color: var(--color-sun);
-}
-
-.text-white {
-    color: var(--color-blanc);
 }
 
 .bg-dark {
@@ -74,14 +79,6 @@ body {
 }
 .pr-20 {
     padding-right: 20px;
-}
-
-.pt-40 {
-    padding-top: 40px;
-}
-
-.pb-40 {
-    padding-bottom: 40px;
 }
 
 .mr-20 {
@@ -406,6 +403,10 @@ nav {
 
 /* DEB FOOTER INFOS */
 
+footer {
+    color: var(--color-blanc);
+}
+
  .fa.fa-phone {
     transform: scale(1.5);  /* Taille de l'icône */
  }
@@ -515,6 +516,6 @@ nav {
         left: 0;
     }
 
-  }
+}
 
   /* FIN RESPONSIVE */
