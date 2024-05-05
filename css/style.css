@@ -156,7 +156,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-size: 25px;
+    font-size: calc(0.5rem + 1.5vm);
     position: sticky;
     height: 50px;
     top: 0;
@@ -188,7 +188,7 @@ nav {
     text-decoration: none;
     color: var(--color-noir);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.0rem;
 }
 
 #icons {
@@ -488,8 +488,13 @@ footer {
         display: block;
     }
 
+
     #icons:before {
         content: "\2630";
+    }
+
+    .active #icons::before {
+        content: "\2715";
     }
 
     nav ul {
@@ -497,14 +502,10 @@ footer {
         left: -110%;
         top: 5%;
         flex-direction: column;
-        background: greenyellow;
+        background: gainsboro;
         width: 100%;
         text-align: center;
         transition: 0.25s;
-    }
-
-    .active #icons:before {
-        content: "\2715";
     }
 
     nav li {
