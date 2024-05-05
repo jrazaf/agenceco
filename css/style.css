@@ -5,6 +5,19 @@ body {
     font-family: "Poppins", sans-serif;
     margin:0;
     padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.5em;
 }
 
 section {
@@ -25,7 +38,6 @@ section {
     --color-grisfooter: #d0dadc;
     --color-dark: #053b45;
     --color-footer: #032328;
-    --fs-me : 40px;
     --fs-sm : 15px;
     --fs-vsm : 11px;
 }
@@ -53,12 +65,10 @@ section {
 
 .title-eco {
    color: var(--color-eco);
-   font-size: var(--fs-me);
 }
 
 .title-sun {
     color: var(--color-sun);
-    font-size: var(--fs-me);
  }
 
 .color-sun{
@@ -156,7 +166,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-size: calc(0.5rem + 1.5vm);
     position: sticky;
     height: 50px;
     top: 0;
@@ -164,6 +173,7 @@ nav {
 
 .logo {
     font-size: 25px;
+    font-weight: bold;
     margin-left: 30px;
     color: var(--color-eco); 
 } 
@@ -188,7 +198,7 @@ nav {
     text-decoration: none;
     color: var(--color-noir);
     font-weight: bold;
-    font-size: 1.0rem;
+    font-size: 1em;
 }
 
 #icons {
@@ -210,10 +220,10 @@ nav {
     color: var(--color-blanc);
     text-align: end;
     margin-top: -200px;
-    font-size: 35px
+    font-size: 2.2em;
 }
 .banner h1 span {
-    font-size: 45px;
+    font-size: 1.5em;
 }
 
 /* FIN BANNER */
@@ -243,7 +253,6 @@ nav {
 
 .temoin h2 {
     color:var(--color-sun);
-    font-size:var(--fs-me);
 }
 
 .temoin h3 {
@@ -512,12 +521,25 @@ footer {
         padding: 3px 0;
     }
 
+    .menu li a {
+        font-size: 0.8em;
+    }
     nav li:hover {
         background: rgb(157, 217, 240);
     }
 
     nav.active ul {
         left: 0;
+    }
+
+    .banner h1 {
+        text-align: end;
+        margin-top: -90px;
+        font-size: 0.9em;
+        margin-right: 10%;
+    }
+    .banner h1 span {
+        font-size: 1em;
     }
 
 }

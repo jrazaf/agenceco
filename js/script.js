@@ -1,5 +1,8 @@
 const links = document.querySelectorAll("nav li");
 
+
+// gestion menu hamburger
+
 icons.addEventListener("click", () => {
   nav.classList.toggle("active");
 });
@@ -9,6 +12,8 @@ links.forEach((link) => {
     nav.classList.remove("active");
   });
 });
+
+// appel du menu au click
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
