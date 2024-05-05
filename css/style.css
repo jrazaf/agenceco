@@ -419,6 +419,7 @@ footer {
 
  .conteneur-flex {
     display: flex;
+    justify-content: flex-end;
     gap: 20px; /* Espacement entre les éléments */
   }
   
