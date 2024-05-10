@@ -483,7 +483,7 @@ footer {
 
 
 /* Styles pour les mobiles */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 650px){
 
     /* menu hamburger responsive */
 
@@ -604,7 +604,7 @@ footer {
 }
 
 /* Styles pour les tablettes */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
+@media only screen and (min-width: 651px) and (max-width: 1024px) {
    
     .col-md-100{
         width: 100%;
