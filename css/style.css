@@ -542,6 +542,24 @@ footer {
         font-size: 1em;
     }
 
+    h1 {
+        font-size: 1em;
+    }
+    
+    h2 {
+        font-size: 0.8em;
+    }
+    
+    h3 {
+        font-size: 0.7em;
+    }
+
+    p {
+        font-size: 0.6em;
+    }
+    form label {
+        font-size: 0.6em;
+    }
 }
 
   /* FIN RESPONSIVE */
