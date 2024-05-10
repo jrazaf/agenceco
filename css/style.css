@@ -38,7 +38,6 @@ section {
     --color-grisfooter: #d0dadc;
     --color-dark: #053b45;
     --color-footer: #032328;
-    --fs-sm : 15px;
     --fs-vsm : 11px;
 }
 
@@ -239,7 +238,6 @@ nav {
 
 .detail-team {
     color: var(--color-grisfonce);
-    font-size: var(--fs-sm);
     text-align: center;
  }
 
@@ -406,7 +404,7 @@ nav {
 }
 
 .galerie-titre {
-    font-size: x-large;
+    font-size: 2em;
     font-weight: bold;
 }
 
@@ -557,9 +555,56 @@ footer {
     p {
         font-size: 0.6em;
     }
+
+    .cadre-img1 {
+        margin-left: 20px;
+        border-radius: 4%; 
+    }
+
+    .cadre-img2 {
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .galerie-titre {
+        font-size: 0.8em;
+    }
+
+    form {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
     form label {
         font-size: 0.6em;
     }
+    div.pl-20 {
+        padding-left: 0;
+
+    }
+    div.pr-20 {
+        padding-right: 0;
+    }
+
+    .conteneur-flex {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteneur-flex .text-right {
+        text-align: center;
+    }
+
+    .rowfooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        align-items: center;
+        margin: auto;
+      }
+
 }
 
   /* FIN RESPONSIVE */
