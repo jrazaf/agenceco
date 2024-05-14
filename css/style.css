@@ -231,8 +231,8 @@ nav {
 
 .team-img{
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 40%; /* assure que l'image remplit le conteneur carré */
+    height: 40%; /* assure que l'image remplit le conteneur carré */
     object-fit: cover;
 }
 
@@ -353,8 +353,8 @@ nav {
 }
 
 .cadre-cercle {
-    width: 100px;
-    height: 100px;
+    width: 5.8em;
+    height: 5.8em;
     border-radius: 50%;
     border: 5px solid var(--color-noir);
     margin: 0px auto;
@@ -481,11 +481,15 @@ footer {
 
 /* DEB RESPONSIVE */
 
+/* Styles      */
+/* pour        */
+/* les mobiles */
 
-/* Styles pour les mobiles */
-@media only screen and (max-width: 650px){
+@media (max-width: 650px) {
 
-    /* menu hamburger responsive */
+    .col-md-100{
+        width: 100%;
+    }
 
     #icons {
         display: block;
@@ -526,6 +530,7 @@ footer {
         left: 0;
     }
 
+    
     .banner h1 {
         text-align: end;
         margin-top: -90px;
@@ -567,6 +572,14 @@ footer {
         font-size: 0.8em;
     }
 
+    .team-img{
+        border-radius: 50%;
+        width: 50%; 
+        height: 50%; 
+        object-fit: cover;
+    }
+ 
+    
     form {
         margin-left: 20px;
         margin-right: 20px;
@@ -581,6 +594,23 @@ footer {
     }
     div.pr-20 {
         padding-right: 0;
+    }
+
+    .cadre-cercle {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        border: 3px solid var(--color-noir);
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cadre-cercle img {
+        max-width: 40%;
+        height: auto; 
     }
 
     .conteneur-flex {
@@ -604,7 +634,7 @@ footer {
 }
 
 /* Styles pour les tablettes */
-@media only screen and (min-width: 651px) and (max-width: 1024px) {
+@media (min-width: 651px) and (max-width: 1024px) {
    
     .col-md-100{
         width: 100%;
@@ -615,7 +645,7 @@ footer {
         margin: 0;
         padding: 0;
         display: flex;
-         width: 71%;
+         width: 75%;
     }
     
     .menu li a {
@@ -650,6 +680,14 @@ footer {
     .banner h1 span {
         font-size: 1em;
     }
+
+    .team-img{
+        border-radius: 50%;
+        width: 35%; 
+        height: 60%; 
+        object-fit: cover;
+    }
+    
 
     .cadre-img1 {
         margin-left: 20px;
@@ -694,7 +732,7 @@ footer {
         margin: 0;
         padding: 0;
         display: flex;
-         width: 60%;
+         width: 65%;
     }
 
     .menu li a {
