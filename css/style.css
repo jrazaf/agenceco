@@ -429,7 +429,7 @@ footer {
     justify-content: flex-end;
     gap: 20px; /* Espacement entre les éléments */
   }
-  
+
 /* FIN FOOTER INFOS */
 
 
@@ -458,7 +458,6 @@ footer {
     padding: 0;
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     justify-content: center;
 }
 
@@ -466,6 +465,7 @@ footer {
     color: var(--color-blanc);
     font-size: var(--fs-vsm);
     color: var(--color-grisfooter);
+    text-decoration: none;
 }
 
 .cadre-reseau {
@@ -616,12 +616,14 @@ footer {
     .conteneur-flex {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         text-align: center;
     }
 
+
     .conteneur-flex .text-right {
         text-align: center;
-    }
+    } 
 
     .rowfooter {
         display: flex;
@@ -732,7 +734,7 @@ footer {
         margin: 0;
         padding: 0;
         display: flex;
-         width: 65%;
+         width: 41%;
     }
 
     .menu li a {
